@@ -1,0 +1,13 @@
+RewriteEngine on
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME}\.php -f
+RewriteRule ^(.*)$ $1.php
+
+
+#Serve .htc files correctly, for IE fixes
+AddType text/x-component .htc
+
+php_value upload_max_filesize 100M
+php_value post_max_size 100M
+php_value max_execution_time 200
+php_value max_input_time 200

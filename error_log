@@ -1,0 +1,6 @@
+[14-May-2022 08:55:54 UTC] PHP Warning:  include(config.php): failed to open stream: No such file or directory in /home/v6syu84rvo44/public_html/registeration.php on line 2
+[14-May-2022 08:55:54 UTC] PHP Warning:  include(): Failed opening 'config.php' for inclusion (include_path='.:/opt/alt/php74/usr/share/pear') in /home/v6syu84rvo44/public_html/registeration.php on line 2
+[14-May-2022 08:55:54 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function str_contains() in /home/v6syu84rvo44/public_html/registeration.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/v6syu84rvo44/public_html/registeration.php on line 14

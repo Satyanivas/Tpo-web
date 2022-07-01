@@ -1,0 +1,66 @@
+.main {
+  width: 70vw;
+  height: 90vh;
+  background: inherit;
+  padding: 1vw;
+  margin: auto;
+  position: relative;
+  top: 5vh
+}
+
+body {
+  background-color: black;
+  animation-name: background;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
+  animation-delay: 2s;
+  font-family: 'Abel', sans-serif
+}
+
+.img1 {
+  width: 10vw;
+  height: 10vw;
+  border: 2px solid grey;
+ /* transform: rotateY(180deg);*/
+  animation-name: photo;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
+  animation-delay: 1s
+}
+.main1{
+  display: none;
+}
+.test1 {
+  background-color: white;
+  color:navy;
+  height: 10vw;
+  padding: 1vw;
+  font-size: 1.2vw;
+  animation-name: text;
+  animation-duration: 1s;
+  animation-fill-mode: forwards
+}
+@media (max-width: 800px) {
+  img{
+    float: none !important;
+  }
+  .img1 {
+    width: 25%;
+    height: auto;
+  }
+  .test1{
+    height: auto;
+    background-color: transparent;
+    margin-left: 70px;
+  }
+  .img2{
+    float: left;
+    margin-top: 0px;
+  }
+ .main{
+   display: none;
+ }
+ .main1{
+   display: block;
+ }
+}
